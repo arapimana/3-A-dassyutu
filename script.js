@@ -7,4 +7,6 @@ function checkAnswer() {
     } else if (answerInput === "真相") {
         result.textContent = "完全解決　ありがとうございました！";
     } else {
-        result.textContent = "誤答
+        result.textContent = "誤答";
+    }
+}
