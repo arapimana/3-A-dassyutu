@@ -5,7 +5,7 @@ function checkAnswer() {
     if (answerInput === "解答") {
         result.textContent = "おめでとう！";
     } else if (answerInput === "真相") {
-        result.textContent = "完全解決　ありがとうございました！";
+        result.textContent = "完全解決！";
     } else {
         result.textContent = "誤答";
     }
